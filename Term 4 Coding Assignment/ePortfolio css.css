@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-size: 1.25em;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin: 0;
+	background-color: pink;
+}
+
+header {
+	display: inline-block;
+	background-color: lavender;
+	color: plum;
+	width: 100%;
+	font-size: 30px;
+	text-align: center;
+}
+
+header > img {
+	padding: 20px 20px 5px 20px;
+}
+
+h1 {
+	vertical-align: top;
+	font-size: 3em;
+	margin : 25px 0 0 0;
+}
+
+h2 {
+	color: rebeccapurple;
+	background-color: lavender;
+}
+
+.title {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.subtitle {
+	margin-top: 0px;
+	margin-left:30px;
+}
+
+ul {
+	list-style-type : square;
+	background-color : lavenderblush;
+	width: 125%;
+	padding: 25px;
+	margin: 0;
+	text-align: top;
+}
+
+li {
+	background-color: lavenderblush;
+	display: inline-block;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: mediumpurple;
+}
+
+a.hover {
+	background-color: mediumpurple
+}
+
+.activeLink {
+	background-color: lavenderblush;
+}
+
+.activeLink > a {
+	color: mediumpurple;
+}
+
+article {
+	padding : 20px;
+	
+}
+
+article > img {
+	float: right;
+}
+
+footer {
+	position: bottom;
+	bottom: 0;
+	background-color: lavender;
+	color: plum;
+	width: 100%;
+}
+
+footer > p {
+	padding : 10px;
+}#header h1 {
+}
+
+header {
+
+}
